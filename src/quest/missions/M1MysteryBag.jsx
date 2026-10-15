@@ -65,6 +65,7 @@ export default function M1MysteryBag() {
           <ChoiceTask
             prompt="Predict: if the bag weighs 2 kg…"
             done={pred}
+            tested={trial != null}
             options={[
               { id: "left", label: "the left side goes down" },
               { id: "right", label: "the right side goes down" },

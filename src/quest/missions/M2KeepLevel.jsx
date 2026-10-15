@@ -58,6 +58,7 @@ export default function M2KeepLevel() {
           <ChoiceTask
             prompt="Predict: if Cubby takes 1 cube off the LEFT pan only…"
             done={pred}
+            tested={tipped}
             options={[
               { id: "left", label: "the left side goes down" },
               { id: "right", label: "the right side goes down" },
